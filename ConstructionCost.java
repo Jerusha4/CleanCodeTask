@@ -5,7 +5,7 @@ class ConstructionCost
 	{
 		Scanner sc = new Scanner(System.in);
 		double constructioncost;
-		double squarefeet = totalarea*10.764; // Converting Area into Square Feet
+		double squarefeet = totalarea/10.764; // Converting Area into Square Feet
 		//"1.Standard Material 2.Above Standard Material 3.High Standard Material 4.High Standard Material and Fully Automated Home"
 		int typeofhouse = sc.nextInt(); // Reading Type of House as given in above comment
 		switch(typeofhouse)
